@@ -1,0 +1,19 @@
+.big-button {
+  color: #222;
+  width: 170px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 2px;
+  transition: all 0.1s linear;
+  &:hover {
+    background-color: #194AFF;
+    border: 2px solid #194AFF;
+
+    color: white;
+  }
+
+
+}

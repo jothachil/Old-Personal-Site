@@ -1,0 +1,127 @@
+/*!
+ * @main.css - A Portfolio Website
+ * @Version: 1.0 Development
+ * @Url: johnthachil.github.io
+ * @Author: John Thachil
+ * @Author url: johnthachil.github.io
+ * @Modules: Slidebars@Adam Charles Smith,Hamburgers@jonsuh,Ngprogress@Rico Sta,prism@Lea Verou
+ *
+ */
+
+ /* Modulues
+    ========================================================================== */
+@import "vendor/grid";
+@import "vendor/hamburgers";
+@import "vendor/loadingbar";
+@import "vendor/angle-edge";
+
+@import "helper/variables";
+@import "helper/global";
+@import "helper/colors";
+
+@import "base/typography";
+@import "base/container";
+
+@import "component/scroll-bar";
+@import "component/sidebar";
+@import "component/icons";
+@import "component/buttons";
+@import "component/animation-effect";
+
+
+@import "component/nav";
+@import "component/footer";
+
+@import "pages/home";
+@import "pages/blog";
+@import "pages/404";
+@import "pages/portfolio-pages";
+@import "pages/all-portfolio";
+@import "pages/all-blog";
+@import "pages/open-source";
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gif-container {
+	position: relative;
+	overflow: hidden;
+}
+.grey-box {
+	height: 30px;
+	width: 90%;
+	background-color: #efefef;
+	position: absolute;
+	bottom: 0;
+}
+.centre {
+	text-align: center;
+}
+.web-btn {
+	margin-top: 30px;
+	color: #1961cb;
+	text-decoration: none;
+	border: 2px solid #1961cb;
+	padding: 15px 17px;
+	font-size: 0.7em;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	transition: all 0.1s ease-in;
+	&:hover {
+		background-color: #1961cb;
+		color: white;
+	}
+}
+.web-btn-work {
+	margin-top: 30px;
+	margin-left: -20px;
+	color: #1961cb;
+	text-decoration: none;
+	border: 2px solid #1961cb;
+	padding: 12px 14px;
+	font-size: 0.77em;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	transition: all 0.1s ease-in;
+	&:hover {
+		background-color: #1961cb;
+		color: white;
+	}
+}
+.special-thanks {
+	padding-top: 50px;
+	h4 {
+		text-decoration: underline;
+	}
+	p {
+		color: #818181;
+	}
+	span {
+		color: #6E6E6E;
+		svg {
+			width: 20px;
+			opacity: 0.8;
+		}
+	}
+}
+
+
+
+/* hamburger Fix
+   ========================================================================== */
+
+.hamburger {
+	outline: none;
+}
+.hamburger:hover {
+	outline: none;
+}

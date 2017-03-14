@@ -1,0 +1,36 @@
+.overlay {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.info {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	top: -8px;
+	opacity: 0;
+	color: white;
+	transition: opacity 200ms ease-in;
+	&:hover {
+		background-color: rgba(0, 54, 255,0.9) !important;
+		opacity: 1;
+	}
+}
+.info-content {
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-right: 20px;
+	height: inherit;
+	h4 {
+		color: white;
+
+	}
+	p {
+		margin-top: 10px;
+		color: white;
+		line-height: 1.2em;
+		margin-bottom: 10px;
+    font-weight: 400;
+	}
+}

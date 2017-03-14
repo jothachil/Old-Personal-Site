@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        window.sr = ScrollReveal({
+            container: document.getElementById('full-container'),
+            viewFactor: 0.5
+        });
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+                sr.reveal('.fadein');
+                $("#full-container").animate({
+                    opacity: "1"
+                });
+            })
+
+    });
+</script>

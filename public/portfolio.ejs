@@ -1,0 +1,140 @@
+<div id="mycanvas" canvas="container">
+    <%- partial("partials/_nav") %>
+    <div class="work-content load-img">
+        <div class="row">
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="gradient.html">
+                    <div class="overlay">
+                        <img src="img/c1.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                              <h4>Gradient Card</h4>
+                                <!-- <  <p>Simple gradient cards </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="login-ui.html">
+                    <div class="overlay">
+                        <img src="img/c2.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Login UI</h4>
+                                <!-- <p>Flat UI logic concept design</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="imdb-redesign.html">
+                    <div class="overlay">
+                        <img src="img/c3.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>IMDB </h4>
+                                <!-- <p>This is Redesign of IMDB website</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="sieve.html">
+                    <div class="overlay">
+                        <img src="img/c4.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Sieve</h4>
+                                <!-- <p>Freelance work designed for Hoffen Global</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="ticket-new.html">
+                    <div class="overlay">
+                        <img src="img/c5.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Ticket New </h4>
+                                <!-- <p>Redesign concept Ticket booking app with protype build in principle app</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="nautilus-website.html">
+                    <div class="overlay">
+                        <img src="img/c6.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Nautilus</h4>
+                                <!-- <p>My College Tech Fest website design.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="tvshow-prototype.html">
+                    <div class="overlay">
+                        <img src="img/c7.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Tv Show App</h4>
+                                <!-- <p>First prototype Using princple application</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col--4-of-12 col--m-2-of-4 box">
+                <a href="isometric-art.html">
+                    <div class="overlay">
+                        <img src="img/c8.jpg" alt="">
+                        <div class="info">
+                            <div class="info-content">
+                                <h4>Isometeric Art</h4>
+                                <!-- <p>3D art using cinema 4d</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <%- partial("partials/_footer") %>
+
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        window.sr = ScrollReveal({
+            container: document.getElementById('mycanvas'),
+            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+        });
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+                $("#mycanvas").animate({
+                    opacity: "1"
+                });
+                sr.reveal('.box', {
+                    duration: 160
+                }, 60);
+            })
+    });
+</script>

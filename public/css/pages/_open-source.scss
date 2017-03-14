@@ -1,0 +1,41 @@
+/* Template OpenSource
+========================================================================== */
+.opensource {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	h3 {
+		padding-top: 30px;
+		padding-bottom: 2px;
+	}
+	hr {
+		margin-bottom: 10px;
+	}
+	.col {
+		padding-left: 0;
+	}
+	.container {
+		left: 0;
+		margin: 0 auto;
+		max-width: 600px;
+		color: #222;
+	}
+}
+.list-item {
+	padding-top: 3px;
+	a {
+		text-decoration: none;
+		color: #222;
+		&:hover {
+			color: #194AFF;
+		}
+	}
+}
+@media (max-width: $toast-breakpoint-small) {
+	.list-item {
+		p {
+			font-size: 1.2em;
+			line-height: 35px;
+		}
+	}
+}
