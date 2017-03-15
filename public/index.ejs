@@ -1,12 +1,5 @@
 <div canvas="container">
-    <div class="nav">
-        <button class="js-toggle-right-slidebar hamburger hamburger--slider" type="button">
-                 <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
-                </span>
-              </button>
-    </div>
-
+    <%- partial("partials/_nav") %>
     <div class="container">
         <div class="main-content">
             <div class="row">
@@ -38,7 +31,7 @@
                 <div class="curated-work">
                     <div class="row">
                         <div class="col col--6-of-12 col--m-2-of-4">
-                            <div class="overlay">
+                            <div class="overlay load-img">
                                 <img src="img/ho1.jpg" alt="">
                                 <div class="info">
                                     <div class="info-content">
@@ -48,7 +41,7 @@
                             </div>
                         </div>
                         <div class="col col--6-of-12 col--m-2-of-4">
-                            <div class="overlay">
+                            <div class="overlay load-img">
                                 <img src="img/ho1.jpg" alt="">
                                 <div class="info">
                                     <div class="info-content">
@@ -60,7 +53,7 @@
                     </div>
                     <div class="row">
                         <div class="col col--6-of-12 col--m-2-of-4">
-                            <div class="overlay">
+                            <div class="overlay load-img">
                                 <img src="img/ho1.jpg" alt="">
                                 <div class="info">
                                     <div class="info-content">
@@ -70,7 +63,7 @@
                             </div>
                         </div>
                         <div class="col col--6-of-12 col--m-2-of-4">
-                            <div class="overlay">
+                            <div class="overlay load-img">
                                 <img src="img/ho1.jpg" alt="">
                                 <div class="info">
                                     <div class="info-content">
@@ -87,6 +80,7 @@
             </div>
         </div>
     </section>
+
     <div class="home-blog">
         <div class="container">
             <h1 class="home-tittle">Recent Blogs</h1>
@@ -117,7 +111,6 @@
 
         </div>
     </div>
-    <%- partial("partials/_footer") %>
 
 </div>
 <%- partial("partials/_loadpageonimageload") %>

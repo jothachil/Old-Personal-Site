@@ -1,82 +1,59 @@
-/* navigation
-   ========================================================================== */
+
 .nav {
-
-	margin-top: 20px;
-	margin-right: 20px;
-	button {
-		padding-top: 10px;
-		padding-bottom: 7px;
-		border-radius: 2px;
-		box-shadow: 0 0 4px 0 rgba(35, 35, 35, 0.5);
-		float: right;
-		background-color: rgba(35, 35, 35, 0.9);
-	}
-	.menu{
-		position: relative;
-		top:-2px;
-		font-weight: 700;
-
-	}
-	h3 {
-		font-weight: 700;
-		float: left;
-		padding-top: 7px;
-		padding-left: 35px;
-	}
-	.go-back-btn{
-		position:relative;
-		top: 9px;
-		left: 31px;
-		background-color: rgba(35, 35, 35, 0.9);
-		box-shadow: 0 0 4px 0 rgba(35, 35, 35, 0.5);
-
-		color:#fff;
-		border:2px solid #222;
-		border-radius: 4px;
-		padding: 11px 13px 11px 13px;
-		text-decoration: none;
-		transition:all 0.2s;
-		&:hover{
-			opacity: 0.8;
-		}
-	}
-	h3:after {
-		display: block;
-		content: "";
-		height: 3px;
-		width: 62px;
-		background-color: #222;
-		margin-left: 10px;
-		margin-top: -2px;
-	}
-	a {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	a{
 		color: #222;
 	}
+	h3{
+		display: inline-block;
+	}
 
-}
-@media (max-width: $toast-breakpoint-medium) {
-	.nav {
-		margin-top: 15px;
+	.site-map {
+		text-align: right;
+		.active{
+			text-decoration: underline;
+		}
+		a {
+
+			font-weight: 100;
+			font-size: 1em;
+			text-decoration: none;
+			color: #222;
+			padding-right: 20px;
+			padding-left: 20px;
+
+			border-right: 1px solid RGBA(34, 34, 34, 0.2);
+			&:last-child{
+				border-right: none;
+				padding-right: 0;
+
+
+
+			}
+			&:first-child{
+				padding-left: 0;
+
+			}
+			&:hover{
+				text-decoration: underline;
+				color: RGBA(25, 74, 255, 1.00);
+			}
+		}
+
+	}
+	span{
+		position: relative;
+		top: 2px;
+	}
+	p {
+		font-size: 0.8em;
+		margin-top: 2px;
+		margin-bottom: 20px;
 	}
 }
+
 @media (max-width: $toast-breakpoint-small) {
-	.nav {
-		margin-top: 20px;
-		h3:after {
-			display: block;
-			content: "";
-			height: 3px;
-			width: 55px;
-		}
-		.go-back-btn{
-			top: 17px;
-			left: 15px;
-		}
-	}
-}
-.nav::after {
-	display: block;
-	clear: both;
-	content: "";
 }
