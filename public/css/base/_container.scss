@@ -11,6 +11,8 @@
 	margin: 0 auto;
 	max-width: $large-container-margin;
 	color: #222;
+	padding: 0 20px;
+
 }
 @media (max-width: $toast-breakpoint-medium) and (min-width: $toast-breakpoint-small) {
 	.container {
@@ -19,7 +21,14 @@
 		max-width: $medium-container-margin;
 		color: #222;
 		padding: 0 20px;
+
 	}
+}
+@media (max-width: $toast-breakpoint-medium) {
+	.container {
+		padding: 0 20px;
+	}
+
 }
 @media (max-width: $toast-breakpoint-small) {
 	.container {
