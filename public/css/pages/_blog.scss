@@ -2,7 +2,7 @@
    ========================================================================== */
 .post-container {
 	font-family: 'Merriweather', serif;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 100px;
 	max-width: 740px;
 	margin: 0 auto;
@@ -103,6 +103,8 @@
 	.post-container {
 		margin: 0 16px;
 		width: auto;
+		padding-top: 20px;
+
 	}
 	.post-content {
 		blockquote {
