@@ -189,3 +189,12 @@
 
 	}
 }
+@media (max-width: $toast-breakpoint-small) {
+	.next-container{
+		padding: 30px 30px;
+
+	}
+	.prev-container{
+		padding: 30px 30px;
+	}
+}
