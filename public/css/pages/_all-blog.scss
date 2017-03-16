@@ -7,3 +7,8 @@
     p{font-weight:300;}
   }
 }
+@media (max-width: $toast-breakpoint-small) {
+  .blog-date{
+    display: none;
+  }
+}

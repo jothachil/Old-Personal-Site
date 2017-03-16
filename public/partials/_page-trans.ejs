@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        NProgress.start();
+        $('.load-img').imagesLoaded()
+            .always(function(instance) {})
+            .done(function(instance) {
+                NProgress.inc();
+                NProgress.done();
+                $("#mycanvas").animate({
+                    opacity: "1"
+                });
+            })
+    });
+</script>
