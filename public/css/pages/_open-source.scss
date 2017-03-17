@@ -25,11 +25,15 @@
 	width: 100%;
 }
 .list-item {
+	.external-link{
+		border-bottom: 1px solid #ddd;
+	}
 	padding-top: 3px;
 	a {
 		text-decoration: none;
+		font-family: 'Merriweather', serif;
 		color: #222;
-		font-weight: 400;
+		font-weight: 300;
 		&:hover {
 			color: #194AFF;
 		}
