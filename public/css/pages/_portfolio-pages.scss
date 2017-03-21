@@ -166,29 +166,22 @@
 .margin-to-left {
 	margin-left: -100px;
 }
-
+.related-work{
+}
 .next-container{
-	text-align: right;
+	text-align: center;
 	padding: 100px 30px;
 	h2{
 	color: rgba(0,54,255,0.9)!important;
+	border-bottom: 1px solid rgba(0,54,255,0.9);
+	display: inline-block;
 	}
-	p{
-		font-family: 'Raleway', sans-serif;
-
-	}
-}
-.prev-container{
-	text-align: left;
-	padding: 100px 30px;
-	h2{
-	color: rgba(0,54,255,0.9)!important;
-	}
-	p{
-		font-family: 'Raleway', sans-serif;
-
+	h4{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 700;
 	}
 }
+
 @media (max-width: $toast-breakpoint-small) {
 	.next-container{
 		padding: 30px 30px;
