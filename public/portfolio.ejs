@@ -127,14 +127,13 @@
         $('.load-img').imagesLoaded()
             .always(function(instance) {})
             .done(function(instance) {
-                NProgress.inc();
                 NProgress.done();
                 $("#mycanvas").animate({
                     opacity: "1"
-                });
+                },700);
                 sr.reveal('.box', {
-                    duration: 160
-                }, 60);
+                    duration: 660
+                }, 100);
             })
     });
 </script>
