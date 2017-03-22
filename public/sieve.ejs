@@ -1,34 +1,30 @@
 <div id="full-container" canvas="container">
     <%- partial("partials/_nav") %>
-    <div class="show-page-content">
-        <div class="show-main-gradient" style="background-color:#1961ca;padding-top:50px;padding-bottom:150px">
-            <div class="container load-img">
-                <img class="fadein" src="img/sievecover.png" alt="">
+        <div class="show-page-content">
+            <div class="show-main-gradient" style="background-color:#1961ca;padding-top:50px;padding-bottom:150px">
+                <div class="container load-img">
+                    <img class="fadein" src="img/sievecover.png" alt="">
+                </div>
             </div>
-        </div>
-        <div class="down">
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-
-        </div>
-        <div class="show-info">
-            <div class="container">
-                <h2>Sieve</h2>
-                <p>I designed and developed this website for a startup. It follows the material design principle of google. It was developed based on the CSS Framework MaterializeCSS, developed my team of students at the team of students from Carnegie Mellon
-                    University.</p>
+            <div class="down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </div>
-        </div>
-        <div class="show-work">
-            <div class="container load-img">
-                <img src="img/sieve.png" alt="">
+            <div class="show-info">
+                <div class="container">
+                    <h2>Sieve</h2>
+                    <p>I designed and developed this website for a startup. It follows the material design principle of google. It was developed based on the CSS Framework MaterializeCSS, developed my team of students at the team of students from Carnegie
+                        Mellon University.
+                    </p>
+                </div>
             </div>
-
-            <a class="web-btn" href="http://www.thesieve.co" target="_blank">VIEW WEBSITE</a>
-
+            <div class="show-work">
+                <div class="container load-img">
+                    <img src="img/sieve.png" alt="">
+                </div>
+                <a class="web-btn" href="http://www.thesieve.co" target="_blank">VIEW WEBSITE</a>
+            </div>
+            <%- partial("partials/_related-works",{ title: "Gradient Card", link: "gradient.html" }) %>
+            <%- partial("partials/_footer") %>
         </div>
-        <%- partial("partials/_related-works",{ title: "Gradient Card", link: "gradient.html" }) %>
-        <%- partial("partials/_footer") %>
-
-
-    </div>
 </div>
 <%- partial("partials/_revealfadeanimation") %>

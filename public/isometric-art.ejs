@@ -1,36 +1,31 @@
 <div id="full-container" canvas="container">
     <%- partial("partials/_nav") %>
-
-    <div class="show-page-content">
-        <div class="show-main-gradient" style="background-color:#94b9e2;">
-            <div class="container load-img">
-                <img class="fadein" src="img/iso.png" alt="">
+        <div class="show-page-content">
+            <div class="show-main-gradient" style="background-color:#94b9e2;">
+                <div class="container load-img">
+                    <img class="fadein" src="img/iso.png" alt="">
+                </div>
             </div>
-        </div>
-        <div class="down">
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-
-        </div>
-        <div class="show-info">
-            <div class="container">
-                <h2>ISOMETIC ART</h2>
-                <p>Isometric projection is a method for visually representing three-dimensional objects in two dimensions in technical and engineering drawings. It is an axonometric projection in which the three coordinate axes appear equally foreshortened
-                    and the angle between any two of them is 120 degrees.</p>
+            <div class="down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </div>
-        </div>
-        <div class="show-work">
-            <div class="container load-img iso-art">
-                <img src="http://res.cloudinary.com/drch6exvq/image/upload/v1468939792/Personal%20Site/iso1.png" alt="">
-                <h3>Iso Art #1</h3>
-                <img src="http://res.cloudinary.com/drch6exvq/image/upload/v1468939797/Personal%20Site/iso2.png" alt="">
-                <h3>Iso Art #2</h3>
-
-
+            <div class="show-info">
+                <div class="container">
+                    <h2>ISOMETIC ART</h2>
+                    <p>Isometric projection is a method for visually representing three-dimensional objects in two dimensions in technical and engineering drawings. It is an axonometric projection in which the three coordinate axes appear equally foreshortened
+                        and the angle between any two of them is 120 degrees.</p>
+                </div>
             </div>
+            <div class="show-work">
+                <div class="container load-img iso-art">
+                    <img src="http://res.cloudinary.com/drch6exvq/image/upload/v1468939792/Personal%20Site/iso1.png" alt="">
+                    <h3>Iso Art #1</h3>
+                    <img src="http://res.cloudinary.com/drch6exvq/image/upload/v1468939797/Personal%20Site/iso2.png" alt="">
+                    <h3>Iso Art #2</h3>
+                </div>
+            </div>
+            <%- partial("partials/_related-works",{ title: "Ticket New Redesign", link: "ticket-new.html" }) %>
+            <%- partial("partials/_footer") %>
         </div>
-        <%- partial("partials/_related-works",{ title: "Ticket New Redesign", link: "ticket-new.html" }) %>
-        <%- partial("partials/_footer") %>
-
-    </div>
 </div>
 <%- partial("partials/_revealfadeanimation") %>
