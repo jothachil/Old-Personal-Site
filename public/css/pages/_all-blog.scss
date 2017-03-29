@@ -6,6 +6,9 @@
   a{
     p{font-weight:300;}
   }
+  .list-item{
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: $toast-breakpoint-small) {
   .blog-date{
