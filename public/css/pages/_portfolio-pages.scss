@@ -5,6 +5,7 @@
 	p{
 		font-family: 'Merriweather', serif;
 	}
+
 }
 .show-main-gradient {
 	background-color: #3e4c51;
@@ -44,12 +45,25 @@
 }
 .show-info {
 	text-align: center;
+	font-weight: 300;
 	padding: 50px 20px 100px;
 	h4 {
 		letter-spacing: 1px;
 	}
 	p {
 		margin-top: 20px;
+	}
+	ul{
+		font-family: 'Merriweather', serif;
+		li{
+			font-family: 'Merriweather', serif;
+			margin-bottom: 10px;
+			margin-top: 5px;
+			&:first-child{
+				margin-top: 20px;
+
+			}
+		}
 	}
 }
 .show-work {
@@ -190,4 +204,23 @@
 	.prev-container{
 		padding: 30px 30px;
 	}
+}
+
+.gk-image-holder{
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin:10px auto;
+}
+
+.gk-show-info{
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	h5{
+		&:first-child{
+			margin-top: 40px;
+		}
+	}
+
+
 }
