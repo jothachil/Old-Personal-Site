@@ -2,7 +2,7 @@
  * Mouse animate icon
 /* ---------------------------------------------- */
 .mouse-icon {
-  margin: 100px auto;
+  margin: 0px auto;
   border: 2px solid #000;
   border-radius: 16px;
   height: 40px;
@@ -68,5 +68,13 @@
   100% {
     top: 25px;
     opacity: 0;
+  }
+}
+@media (max-width: $toast-breakpoint-small) {
+  .mouse-icon {
+
+    display: none;
+  
+
   }
 }

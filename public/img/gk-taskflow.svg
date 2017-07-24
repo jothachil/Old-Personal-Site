@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1236px" height="473px" viewBox="0 0 1236 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy">
+            <g id="Style-Guide" transform="translate(527.000000, 45.000000)" font-size="20" font-family="WorkSans-SemiBold, Work Sans" fill="#FF2B5B" font-weight="500">
+                <text id="Manager-Taskflow">
+                    <tspan x="0" y="19">Manager Taskflow</tspan>
+                </text>
+            </g>
+            <g id="Layer-1" transform="translate(155.500000, 145.000000)">
+                <path d="M2,103.6671 L134.7175,103.6671 C135.822,103.6671 136.7175,104.56253 136.7175,105.6671 L136.7175,150.9598 C136.7175,152.06436 135.822,152.9598 134.7175,152.9598 L2,152.9598 C0.8954,152.9598 0,152.06436 0,150.9598 L0,105.6671 C0,104.56253 0.8954,103.6671 2,103.6671 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M2,103.6671 L134.7175,103.6671 C135.822,103.6671 136.7175,104.56253 136.7175,105.6671 L136.7175,150.9598 C136.7175,152.06436 135.822,152.9598 134.7175,152.9598 L2,152.9598 C0.8954,152.9598 0,152.06436 0,150.9598 L0,105.6671 C0,104.56253 0.8954,103.6671 2,103.6671 Z" id="Shape" stroke="#909090" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(20.554900, 117.813450)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#545454" font-weight="normal">
+                    <text id="Login-Screen">
+                        <tspan x="0.193314" y="17">Login Screen</tspan>
+                    </text>
+                </g>
+                <path d="M241.8668,0 L374.58427,0 C375.68884,0 376.58427,0.8954 376.58427,2 L376.58427,47.2927 C376.58427,48.39726 375.68884,49.2927 374.58427,49.2927 L241.8668,49.2927 C240.7622,49.2927 239.8668,48.39726 239.8668,47.2927 L239.8668,2 C239.8668,0.8954 240.7622,0 241.8668,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M241.8668,0 L374.58427,0 C375.68884,0 376.58427,0.8954 376.58427,2 L376.58427,47.2927 C376.58427,48.39726 375.68884,49.2927 374.58427,49.2927 L241.8668,49.2927 C240.7622,49.2927 239.8668,48.39726 239.8668,47.2927 L239.8668,2 C239.8668,0.8954 240.7622,0 241.8668,0 Z" id="Shape" stroke="#909090" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(283.421700, 14.146350)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#545454" font-weight="normal">
+                    <text id="Sign-in">
+                        <tspan x="0.100666" y="17">Sign in</tspan>
+                    </text>
+                </g>
+                <polyline id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="137.7242 131.1084 198.3072 131.2295 197.6356 26.8226 226.4694 26.2552"></polyline>
+                <path id="Shape-decoration-1" d="M226.4694,26.2552 L215.612467,23.4682651 L215.730514,29.4671038 L226.4694,26.2552 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M241.8668,213.0935 L374.58427,213.0935 C375.68884,213.0935 376.58427,213.98892 376.58427,215.0935 L376.58427,260.38618 C376.58427,261.49075 375.68884,262.38618 374.58427,262.38618 L241.8668,262.38618 C240.7622,262.38618 239.8668,261.49075 239.8668,260.38618 L239.8668,215.0935 C239.8668,213.98892 240.7622,213.0935 241.8668,213.0935 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M241.8668,213.0935 L374.58427,213.0935 C375.68884,213.0935 376.58427,213.98892 376.58427,215.0935 L376.58427,260.38618 C376.58427,261.49075 375.68884,262.38618 374.58427,262.38618 L241.8668,262.38618 C240.7622,262.38618 239.8668,261.49075 239.8668,260.38618 L239.8668,215.0935 C239.8668,213.98892 240.7622,213.0935 241.8668,213.0935 Z" id="Shape" stroke="#909090" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(246.421700, 227.239830)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#545454" font-weight="normal">
+                    <text id="Forgot-Password">
+                        <tspan x="0.062758" y="17">Forgot Password</tspan>
+                    </text>
+                </g>
+                <polyline id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="198.3072 131.2295 198.3072 237.8629 226.4668 237.83138"></polyline>
+                <path id="Shape-decoration-1" d="M226.4668,237.83138 L215.663449,234.843471 L215.670165,240.843467 L226.4668,237.83138 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M421.25155,213.0935 L553.969,213.0935 C555.0736,213.0935 555.969,213.98892 555.969,215.0935 L555.969,260.38618 C555.969,261.49075 555.0736,262.38618 553.969,262.38618 L421.25155,262.38618 C420.147,262.38618 419.25155,261.49075 419.25155,260.38618 L419.25155,215.0935 C419.25155,213.98892 420.147,213.0935 421.25155,213.0935 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M421.25155,213.0935 L553.969,213.0935 C555.0736,213.0935 555.969,213.98892 555.969,215.0935 L555.969,260.38618 C555.969,261.49075 555.0736,262.38618 553.969,262.38618 L421.25155,262.38618 C420.147,262.38618 419.25155,261.49075 419.25155,260.38618 L419.25155,215.0935 C419.25155,213.98892 420.147,213.0935 421.25155,213.0935 Z" id="Shape" stroke="#909090" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(451.806430, 227.239830)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#545454" font-weight="normal">
+                    <text id="Webhook">
+                        <tspan x="0.27511" y="17">Webhook</tspan>
+                    </text>
+                </g>
+                <path d="M377.08427,237.73983 L412.85427,237.73983" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M412.85427,237.73983 L402.05427,234.73983 L402.05427,240.73983 L412.85427,237.73983 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M606.22618,213.0935 L772.972,213.0935 C774.07657,213.0935 774.972,213.98892 774.972,215.0935 L774.972,260.38618 C774.972,261.49075 774.07657,262.38618 772.972,262.38618 L606.22618,262.38618 C605.1216,262.38618 604.22618,261.49075 604.22618,260.38618 L604.22618,215.0935 C604.22618,213.98892 605.1216,213.0935 606.22618,213.0935 Z" id="Shape" fill="#FF2B5A" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(622.781070, 227.239830)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#FFFFFF" font-weight="normal">
+                    <text id="Slack-Notifi">
+                        <tspan x="0.97941" y="17">Slack Notifi</tspan>
+                    </text>
+                    <text id="cation">
+                        <tspan x="86.06627" y="17">cation</tspan>
+                    </text>
+                </g>
+                <path d="M556.469,237.73983 L591.32618,237.73983" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M591.32618,237.73983 L580.52618,234.73983 L580.52618,240.73983 L591.32618,237.73983 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M424.80875,0 L557.5262,0 C558.6308,0 559.5262,0.8954 559.5262,2 L559.5262,47.2927 C559.5262,48.39726 558.6308,49.2927 557.5262,49.2927 L424.80875,49.2927 C423.7042,49.2927 422.80875,48.39726 422.80875,47.2927 L422.80875,2 C422.80875,0.8954 423.7042,0 424.80875,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M424.80875,0 L557.5262,0 C558.6308,0 559.5262,0.8954 559.5262,2 L559.5262,47.2927 C559.5262,48.39726 558.6308,49.2927 557.5262,49.2927 L424.80875,49.2927 C423.7042,49.2927 422.80875,48.39726 422.80875,47.2927 L422.80875,2 C422.80875,0.8954 423.7042,0 424.80875,0 Z" id="Shape" stroke="#909090" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group" transform="translate(458.363640, 14.146350)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#545454" font-weight="normal">
+                    <text id="Enquires">
+                        <tspan x="0.689712" y="17">Enquires</tspan>
+                    </text>
+                </g>
+                <path d="M377.58144,24.39226 L417.411342,24.4813609" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M417.411342,24.4813609 L406.61808,21.4572085 L406.604658,27.4571934 L417.411342,24.4813609 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M424.80875,86.8974 L557.5262,86.8974 C558.6308,86.8974 559.5262,87.79285 559.5262,88.8974 L559.5262,134.1901 C559.5262,135.2947 558.6308,136.1901 557.5262,136.1901 L424.80875,136.1901 C423.7042,136.1901 422.80875,135.2947 422.80875,134.1901 L422.80875,88.8974 C422.80875,87.79285 423.7042,86.8974 424.80875,86.8974 Z" id="Shape" fill="#FF2B5A" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(443.363640, 101.043770)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#FFFFFF" font-weight="normal">
+                    <text id="New-Enquire">
+                        <tspan x="0.243901" y="17">New Enquire</tspan>
+                    </text>
+                </g>
+                <path d="M491,54.7927 L491,81.9974" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M491,81.9974 L494,71.1974 L488,71.1974 L491,81.9974 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M603.68532,86.8974 L760.2677,86.8974 C761.37227,86.8974 762.2677,87.79285 762.2677,88.8974 L762.2677,134.1901 C762.2677,135.2947 761.37227,136.1901 760.2677,136.1901 L603.68532,136.1901 C602.58075,136.1901 601.68532,135.2947 601.68532,134.1901 L601.68532,88.8974 C601.68532,87.79285 602.58075,86.8974 603.68532,86.8974 Z" id="Shape" fill="#FF2B5A" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(633.240200, 101.043770)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#FFFFFF" font-weight="normal">
+                    <text id="Fill-in-Details">
+                        <tspan x="0.173053" y="17">Fill in Details</tspan>
+                    </text>
+                </g>
+                <path d="M564.5262,111 L596.78532,111" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M596.78532,111 L585.98532,108 L585.98532,114 L596.78532,111 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M796.28254,86.8974 L929,86.8974 C930.10457,86.8974 931,87.79285 931,88.8974 L931,134.1901 C931,135.2947 930.10457,136.1901 929,136.1901 L796.28254,136.1901 C795.17797,136.1901 794.28254,135.2947 794.28254,134.1901 L794.28254,88.8974 C794.28254,87.79285 795.17797,86.8974 796.28254,86.8974 Z" id="Shape" fill="#FF2B5A" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(826.837420, 101.043770)" font-size="16.86224" font-family="Asap-Regular, Asap" fill="#FFFFFF" font-weight="normal">
+                    <text id="Send-SMS">
+                        <tspan x="0.022175" y="17">Send SMS</tspan>
+                    </text>
+                </g>
+                <path d="M766.2677,112.9231 L788.38347,112.6192" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M788.38347,112.6192 L777.543269,109.767876 L777.62571,115.767309 L788.38347,112.6192 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M570.9182,23.84093 C596.5425,23.2756 664.1458,27.56124 679.0457,86.8974" id="Shape" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path id="Shape-decoration-1" d="M570.9182,23.84093 L581.649402,20.6034454 L581.781743,26.6019857 L570.9182,23.84093 Z" stroke-opacity="0.419129303" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

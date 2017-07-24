@@ -1,13 +1,16 @@
 /* General Styles
    ========================================================================== */
 html {
-	font-size: 20px;
+	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: hsl(200, 10%, 19%);
+	color: #27303b;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+iframe{
+	margin: 0 auto;
 }
 a{
 	text-decoration: none;
@@ -23,7 +26,7 @@ a{
 }
 * {
 	line-height: 31px;
-	line-height: 1.722222222222222rem;
+	line-height: 1.822222222222222rem;
 }
 @media (max-width: $toast-breakpoint-small) {
 	* {
