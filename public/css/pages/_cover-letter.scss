@@ -31,12 +31,15 @@
     margin-bottom: 30px;
   }
   .contact-section{
+    max-width: 660px;
+
     a{
       color: #222;
       text-decoration: underline;
     }
     ul{
       list-style: none;
+      padding-left: 0px;
     }
     .right-aligned{
       text-align: right;
