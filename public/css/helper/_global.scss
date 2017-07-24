@@ -1,7 +1,7 @@
 /* General Styles
    ========================================================================== */
 html {
-	font-size: 19px;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #27303b;
 	-ms-text-size-adjust: 100%;
@@ -18,15 +18,15 @@ a{
 #full-container {
 	opacity: 0;
 }
-@media (max-width: $toast-breakpoint-small) {
+* {
+	line-height: 41px;
+	line-height: 2.422222222222222rem;
+}
+@media (max-width: $toast-breakpoint-medium) {
 	html {
 		font-size: 16px;
 		font-size: 100%;
 	}
-}
-* {
-	line-height: 31px;
-	line-height: 1.822222222222222rem;
 }
 @media (max-width: $toast-breakpoint-small) {
 	* {

@@ -15,10 +15,12 @@
   margin-top: 50px;
   font-weight: 100;
   .container{
-    max-width: 760px
+    max-width: 860px;
+    margin-bottom: 60px;
   }
   p{
     color:rgba(0,0,0,0.7);
+     margin-bottom: 30px;
 
   }
   h2{
@@ -26,7 +28,19 @@
     margin-bottom: 80px;
   }
   p + p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .contact-section{
+    a{
+      color: #222;
+      text-decoration: underline;
+    }
+    ul{
+      list-style: none;
+    }
+    .right-aligned{
+      text-align: right;
+    }
   }
 }
 @media (max-width: $toast-breakpoint-small) {
