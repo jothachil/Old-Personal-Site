@@ -1,23 +1,25 @@
 /* Template OpenSource
 ========================================================================== */
+
 .opensource-container {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	font-weight: 400;
-	h2{
+	h2 {
 		padding-left: 20px
 	}
-
+	.external-link{
+		margin-right: 20px;
+	}
 }
 
-
-.list-view{
+.list-view {
 	width: 100%;
 }
+
 .list-item {
-	border-bottom: 1px solid #e9ebec;
 	padding: 20px 0px;
-	.external-link{
+	.external-link {
 		border-bottom: 1px solid #ddd;
 	}
 	a {
@@ -28,25 +30,24 @@
 			color: #194AFF;
 		}
 	}
-
 }
+
 @media (max-width: $toast-breakpoint-small) {
-	.opensource{
-		h1{
+	.opensource {
+		h1 {
 			padding-left: 20px;
 		}
-		p{
+		p {
 			margin-left: 0px;
 		}
 	}
-
 	.list-item {
 		p {
 			font-size: 1.2em;
 			line-height: 35px;
 		}
 	}
-	.opensource{
+	.opensource {
 		padding-top: 0;
 	}
 }

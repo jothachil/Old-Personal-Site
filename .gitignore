@@ -2,5 +2,6 @@ _travis.yml
 .travis.yml
 npm-debug.log
 Procfile
+./node-modules
 public/design-task-xcompany.ejs
 public/hello.ejs

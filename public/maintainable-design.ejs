@@ -1,0 +1,86 @@
+<div id="mycanvas" canvas="container">
+    <%- partial("partials/_nav") %>
+        <div class="post-bg">
+            <div class="post-container">
+                <h1>Three Attitudes that Lead to Maintainable Design — Sketch</h1>
+                <time class="post-time">12 July 2017</time>
+                <section class="post-content load-img">
+                  <img src="https://cdn-images-1.medium.com/max/2000/1*Xcc-TPUcodZcCv1541Jl0w@2x.png" alt="">
+
+                    <h2>1 — Symbols</h2>
+                    <p><b>DRY Principle (Don’t Repeat Yourself)</b> — Designer waste a lot of time in managing their design files, even more than time took to design it. Even though this is a programming principle it’s also applicable to the designer who wants to maintain their design file.</p>
+                    <p>When working with complex documents, sending Symbol masters to the Symbols Page provides you with an overview and helps you stay organized.</p>
+                    <blockquote>Investing in some time at the beginning could save a LOT in later stages.</blockquote>
+                    <p>Using symbols in design workflow also helps a great deal to developers creating the reusable component. Especially while using as component based front-end library such as react, vue JS <etc class=""></etc></p>
+                    <h3>NAMING</h3>
+                    <p>If you include a slash (/) in your Symbol’s name, Sketch will treat these as group separators.</p>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*MhWIdgiezorRz2_IokEuFA.png" alt="">
+                    <p>I try to differentiate the symbol’s function and state. In above example to save emoji keyboard.</p>
+                    <ul>
+                        <li>Function → Keyboard</li>
+                        <li>State → Dark</li>
+                        <li>Sub-State → Emoji</li>
+                    </ul>
+                    <h3>ORGANISING SYMBOLS</h3>
+                    <p>One major problem that arise while using symbols is organizing the symbols page. Thanks, Jason Burns Developer of the Symbol Organiser plugin this problem is easily solved.</p>
+                    <a href="https://github.com/sonburn/symbol-organizer">sonburn/symbol-organizer</a>   
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*izDfjoKtt8ZTeCgiAm7Gng.png" alt="">
+                    <p><i>PS: Make sure you have properly named your symbol. This plugin organizes the symbols based on the naming structure of the symbols.</i></p>
+                    <iframe width="700" height="393" src="https://www.youtube.com/embed/7HaeAy31-_Q" frameborder="0" allowfullscreen></iframe>
+                    <p>This feature also force the designer to manage their assets better by naming and sizing it properly.</p>
+                    <p>To know about best practices for nested symbol read Lloyd Humphreys article.</p>
+                    <a href="https://medium.com/@lloyd/sketch-symbols-best-practices-now-that-nested-overrides-are-a-thing-9b651d3fe1a4">Sketch symbols best practices (now that nested overrides are a thing) - by Lloyd Humphreys</a><br>
+                    <h2>2 — Baseline Grids</h2>
+                    <p><b>This is probably most underrated feature on the sketch.</b></p>
+                    <p>The baseline grid is a technique used to better your web-based typography. Essentially, it aligns all your text to a vertical grid where the bottom of each letter is positioned on the grid, just like writing on lined paper. The end result is a body of text perfectly organized, with a subconscious recognition of balance and congruity.</p>
+                    <p>The first and most important step is to ensure the core structure for your documents grid. You can define the grid values by navigating View →Canvas →Grid Settings</p>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*mpMXEvmYwiYF8ibitGTCSQ.png" alt="">
+                    <p>Screen sizes, expectations, and interactions are constantly evolving, but there are two things that remain constant: Text on screens and scrolling. Baseline grids help make both of these things more aesthetically pleasing and might get you thinking a little harder about the value of vertical rhythm.</p>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*sz7TtH1TsIHuzA9HJ00yMg.png" alt="">
+                    <p>The Google Material design team does a great job defining the method of how this baseline affects the values of other type elements of the core UI.</p>
+                    <p>Read the article by <a href="https://medium.com/@CheckYourVector">Anthony Collurafici</a> which describe 8pt baseline grid workflow.</p>
+
+                    <h2>3 — Creating shared styles</h2>
+                    <p>Shared styles lay down the rules for the rest of your designs. With styles, we’ll set the primary colors of the brand, set the typographic rules, as well as set basic rules for buttons, links, etc.</p>
+                    <p>As the project grows bigger and bigger we want to make sure styles we used in project same across everywhere in the project. We also need to ensure we can make changes to this style easily, which then reflect everywhere in the project file. For example, if were to change primary color of design it should be reflected everywhere in the project.</p>
+                    <p>Creating shared style also help your fellow developer, as he will able reuse the shared style code everywhere in the project.</p>
+                    <p>In order to ensure this, we should be able to zoom out of the design and identify the shared styles which we are going to be used across the project it may my color schemes, fonts, symbols etc.. It’s good practice to start creating shared styles at the early stages of the project. This makes sure we won’t have to restructure whole project file because it has become hard to maintain the sketch file.</p>
+                    <h3>FONT STYLES</h3>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*6Ewc3pCZgknAhlMtiEqOXQ.jpeg" alt="">
+                    <p>Font is by far one of the hardest things to maintain in sketch file. One hack is to use craft plugin to create shared styles font.</p>
+                    <img src="https://cdn-images-1.medium.com/max/1200/1*GPercO9BWFYTZ0cTZ2cEOw.png" alt="">
+                    <p>When you sync style using craft plugin. It will create a page with all font styles you used in a project which includes the font with different styles and color. Start maintaining fonts at the early stage or else if you start syncing the styles at later stages of your project you will end up having 20–30 font styles.</p>
+                    <p>When you have some direction regarding which font you want to use start syncing your font styles.</p>
+                    <p>Make sure you start defining font styles for difference cases in document such as Primary text , Secondary text , Headline, Sub-Headline etc…</p>
+                    <p>By maintaining your fonts styles like this ensure that if have to change your font color or font style later in the project you just have to make the change in font style page which craft created for you. This will change the font in rest of document.</p>
+                    <h3>COLOR PALETTE</h3>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*VMDNdmYJtwRjLnozdmHy5Q.png" alt="">
+                    <p>The chance you have to iterate over the color in document always have high. You don’t have to be that guy who designed 78 screens. After feedback from you’re told to change primary color and you will be like sh*t you need to update all 78 screens.</p>
+                    <p>Using craft plugin we can are able to create the color palette of all the color you used in the document. So to update all 78 screens color just update the color in the craft color palette, it will go ahead and change color in throughout your document.</p>
+                    <img src="https://cdn-images-1.medium.com/max/1600/1*jYkFrdedZXxXXT1KKH9XtA.gif" alt="">
+                    <p>Craft also helps to maintain the number of colors which is been used throughout the application. I am talking about those people who have 50 shades of gray in their document.</p>
+                    <h2>Conclusion</h2>
+                    <ul>
+                        <li>Invest time in maintaining your sketch file from start.</li>
+                        <li>Follow DRY(Don’t Repeat Yourself) principle in your document.</li>
+                        <li>Make the life developer little easier by creating and maintaining a style guide.</li>
+                    </ul>
+                    <p>This practice requires time. So give yourself time to adapt to this practice. It will help you to improve your workflow at later stages in the design process.</p>
+                    <div class="align-centre">
+                        <h2>Questions ?</h2>
+                        <p>Have a question about this post or anything else?</p>
+                        <p>Ask away on <a class="underline" href="https://twitter.com/jothachil" target="_blank">Twitter</a></p>
+                    </div>
+                    <hr>
+                    <div class="align-centre">
+                        <h2>Similar post ?</h2>
+                        <p><a class="underline" href="less-is-more-lean-ux.html">Less is More</a></p>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <%- partial("partials/_footer") %>
+
+</div>
+<%- partial("partials/_page-trans") %>

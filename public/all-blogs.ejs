@@ -1,71 +1,87 @@
 <div id="mycanvas" canvas="container">
     <%- partial("partials/_nav") %>
 </div>
-<div class="show-page-content list-view">
+<div id="list-view" class="show-page-content list-view">
     <div class="list-blogs">
         <div class="container blog-container">
             <div class="list-item">
-                <div class="col col--6-of-8 blog-title">
+                <div class="col col--10-of-12 blog-title">
+                    <a href="maintainable-design.html">
+                        <p class="blog-date">19 July 2017</p>
+                        <h3>Three Attitudes that Lead to Maintainable Design — Sketch</h3>
+                        <p class="blog-description">1 — Symbols - DRY Principle (Don’t Repeat Yourself) — Designer waste a lot of time in managing their
+                            design files, even more than time took to design it. Even though this is a programming principle..</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="list-item">
+                <div class="col col--10-of-12 blog-title">
                     <a href="30-things-i-learned-from-spending-a-year-as-a-designer.html">
-                        <p>30 Things I Learned From Spending a Year as a Designer</p>
+                        <p class="blog-date">15 June 2017</p>
+                        <h3>30 Things I Learned From Spending a Year as a Designer</h3>
+                        <p class="blog-description">My thoughts on completing one year as designer. It's summary of my failure, my success everting else...</p>
                     </a>
-                </div>
-                <div class="col col--2-of-8 col--m-1-of-4 col--s-1-of-4">
-                    <p class="blog-date">15 June 2017</p>
                 </div>
 
             </div>
             <div class="list-item">
-                <div class="col col--6-of-8 blog-title">
+                <div class="col col--10-of-12 blog-title">
                     <a href="improve-your-404-page-design.html">
-                        <p>Best Practices for 404 page design</p>
+                        <p class="blog-date">1 March 2017</p>
+                        <h3>Best Practices for 404 page design</h3>
+                        <p class="blog-description">I got a call from my dad asking me what a 404 error means. He was totally frustrated and thought
+                            that he did something wrong on the internet which caused...</p>
                     </a>
-                </div>
-                <div class="col col--2-of-8 col--m-1-of-4 col--s-1-of-4">
-                    <p class="blog-date">1 March 2017</p>
                 </div>
 
             </div>
             <div class="list-item">
-                <div class="col col--6-of-8 blog-title">
+
+                <div class="col col--10-of-12 blog-title">
                     <a href="design-with-empthy.html">
-                        <p>Design With Empthy</p>
+                        <p class="blog-date">3 Feb 2017</p>
+                        <h3>Design With Empthy</h3>
+                        <p class="blog-description">I came across this book ‘Talking to Customer’ as part of a project I am doing for an in-house product
+                            for the yoga practitioner. I wanted to convey how this...</p>
                     </a>
                 </div>
-                <div class="col col--2-of-8 col--m-1-of-4 col--s-1-of-4">
-                    <p class="blog-date">3 Feb 2017</p>
+
+            </div>
+
+            <div class="list-item">
+                <div class="col col--10-of-12 blog-title">
+                    <a href="less-is-more-lean-ux.html">
+                        <p class="blog-date">28 Nov 2016</p>
+                        <h3>Less is More - Lean UX</h3>
+                        <p class="blog-description">Why Lean UX? Lean UX focuses more on the experience of the design and less on providing UX deliverables....</p>
+                    </a>
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="col col--10-of-12 blog-title">
+                    <a href="first-blog-post.html">
+                        <p class="blog-date">24 July 2016</p>
+                        <h3>First blog post</h3>
+                        <p class="blog-description">This will be my first blog post that I am putting together. I am not sure how exactly it will turn
+                            out to be, so I am just gonna let it write itself....</p>
+                    </a>
                 </div>
 
-            </div>
-
-            <div class="list-item">
-                <a href="less-is-more-lean-ux.html">
-
-                    <div class="col col--6-of-8 blog-title">
-                        <p>Less is More - Lean UX</p>
-
-                    </div>
-                    <div class="col col--2-of-8 col--m-4-of-4 col--s-2-of-4 ">
-                        <p class="blog-date">28 Nov 2016</p>
-                    </div>
-                </a>
-            </div>
-            <div class="list-item">
-                <a href="first-blog-post.html">
-
-                    <div class="col col--6-of-8 blog-title">
-                        <p>First blog post</p>
-
-                    </div>
-                    <div class="col col--2-of-8 col--m-4-of-4 col--s-2-of-4 ">
-                        <p class="blog-date">24 July 2016</p>
-                    </div>
-                </a>
             </div>
         </div>
     </div>
 </div>
 <%- partial("partials/_footer") %>
-
-    </div>
-    <%- partial("partials/_page-trans") %>
+<%- partial("partials/_page-trans") %>
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.sr = ScrollReveal({
+            container: document.getElementById('list-view'),
+            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+        });
+        sr.reveal('.list-item', {
+            duration: 160
+                }, 100);        
+    });
+</script>

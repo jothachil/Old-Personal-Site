@@ -1,28 +1,36 @@
-
-
-.blog-date{
+.blog-date {
   opacity: 0.6;
 }
-.list-blogs{
+
+.list-blogs {
   min-height: 500px;
-  a{
-    p{font-weight:400;}
+  a {
+    p {
+      font-weight: 400;
+    }
   }
-  .list-item{
-    margin-bottom: 10px;
+  .list-item {
+    margin-bottom: 20px;
   }
 }
-.blog-container{
 
+.blog-container {
   margin-top: 100px;
   margin-bottom: 100px;
-
-  h3{
-    padding-left: 20px;
+  .blog-description {
+    opacity: 0.4;
+    font-size: 0.9em;
   }
 }
+
 @media (max-width: $toast-breakpoint-small) {
-  .blog-date{
+  .blog-date {
     display: none;
+  }
+  .blog-container {
+     margin-top: 30px; 
+  }
+  .col{
+    padding-left: 0;
   }
 }
