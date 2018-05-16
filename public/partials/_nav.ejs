@@ -1,20 +1,18 @@
 <div class="container">
-    <div class="nav">
-
-        <div class="row">
-          <div class="col col--3-of-12 col--m-1-of-4 nav-img-container" >
-            <a class="fade-link" href="index.html"><img src="img/logo.svg" alt=""></a>
-
-          </div>
-          <div class="col col--9-of-12 col--m-3-of-4">
-            <div class="site-map">
-                <a class="fade-links <%- current.source == 'portfolio' ? 'active' : '' %>" href="portfolio.html">Portfolio</a><span href=""></span>
-                <a class="fade-link <%- current.source == 'all-blogs' ? 'active' : '' %>" href="all-blogs.html">Blog</a>
-                <a class="fade-link <%- current.source == 'open-source' ? 'active' : '' %>" href="open-source.html">Open source</a>
-
-          </div>
-
-          </div>
+  <div class="nav">
+    <div class="row">
+      <div class="col col--3-of-12 col--m-1-of-4">
+        <a class="fade-link" href="index.html">
+          <img class="logo" src="img/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="col col--9-of-12 col--m-3-of-4">
+        <div class="site-map">
+          <a class="site-link <%- current.source == 'portfolio' ? 'active' : '' %>" href="portfolio.html">Portfolio</a>
+          <a class="site-link <%- current.source == 'all-blogs' ? 'active' : '' %>" href="all-blogs.html">Blog</a>
+          <a class="site-link <%- current.source == 'open-source' ? 'active' : '' %>" href="open-source.html">Code</a>
         </div>
+      </div>
     </div>
+  </div>
 </div>

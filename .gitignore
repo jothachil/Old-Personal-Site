@@ -5,3 +5,4 @@ Procfile
 ./node-modules
 public/design-task-xcompany.ejs
 public/hello.ejs
+.DS_Store

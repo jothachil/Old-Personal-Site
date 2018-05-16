@@ -9,13 +9,26 @@
       font-weight: 400;
     }
   }
-  .list-item {
-    margin-bottom: 20px;
-  }
+
+}
+.list-item {
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+
+	a {
+		text-decoration: none;
+		color: #222;
+		font-weight: 400;
+		&:hover {
+			color: #194AFF;
+		}
+	}
 }
 
 .blog-container {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   .blog-description {
     opacity: 0.4;
@@ -28,7 +41,7 @@
     display: none;
   }
   .blog-container {
-     margin-top: 30px; 
+     margin-top: 30px;
   }
   .col{
     padding-left: 0;

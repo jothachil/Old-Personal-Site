@@ -1,48 +1,40 @@
 /* Container
    ========================================================================== */
-.full-container{
-	left: 0;
-	margin: 0 auto;
-	max-width: $large-container-margin+200;
-	color: #222;
+.full-container {
+  left: 0;
+  margin: 0 auto;
+  max-width: $large-container-margin + 200;
 }
 .container {
-	left: 0;
-	margin: 0 auto;
-	max-width: $large-container-margin;
-	color: #222;
-	padding: 0 20px;
+  left: 0;
+  margin: 0 auto;
+  max-width: $large-container-margin;
 
+  padding: 0 20px;
 }
 @media (max-width: $toast-breakpoint-medium) and (min-width: $toast-breakpoint-small) {
-	.container {
-		left: 0;
-		margin: 0 auto;
-		max-width: $medium-container-margin;
-		color: #222;
-		padding: 0 20px;
+  .container {
+    left: 0;
+    margin: 0 auto;
+    max-width: $medium-container-margin;
 
-	}
+    padding: 0 20px;
+  }
 }
 @media (max-width: $toast-breakpoint-medium) {
-	.container {
-		padding: 0 20px;
-	}
-
+  .container {
+    padding: 0 20px;
+  }
 }
 @media (max-width: $toast-breakpoint-small) {
-	.container {
-		left: 0;
-		margin: 0 auto;
-		max-width: $small-container-margin;
-		color: #222;
-		padding: 0 20px;
-
-	}
+  .container {
+    left: 0;
+    max-width: $small-container-margin;
+  }
 }
 hr {
-	border: 0;
-	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

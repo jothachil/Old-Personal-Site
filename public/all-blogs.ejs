@@ -76,12 +76,13 @@
 <%- partial("partials/_page-trans") %>
 <script type="text/javascript">
     $(document).ready(function () {
+        console.log("Trigger 1");
         window.sr = ScrollReveal({
             container: document.getElementById('list-view'),
             easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
         });
         sr.reveal('.list-item', {
             duration: 160
-                }, 100);        
+                }, 100);
     });
 </script>

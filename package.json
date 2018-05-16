@@ -2,6 +2,9 @@
   "name": "My-Harp-App",
   "version": "1.0.0",
   "description": "A Harp App on Heroku",
+  "scripts": {
+    "start": "harp server"
+  },
   "dependencies": {
     "harp": "*"
   }

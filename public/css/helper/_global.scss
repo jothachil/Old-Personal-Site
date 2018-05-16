@@ -2,12 +2,16 @@
    ========================================================================== */
 html {
 	font-size: 18px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Monda', sans-serif;
 	color: #27303b;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+.row{
+	margin-bottom: 20px;
+	margin-left: 0;
 }
 iframe{
 	margin: 0 auto;
@@ -20,7 +24,7 @@ a{
 }
 * {
 	line-height: 39px;
-	line-height: 2.422222222222222rem;
+	line-height: 2.022222222222222rem;
 }
 @media (max-width: $toast-breakpoint-medium) {
 	html {

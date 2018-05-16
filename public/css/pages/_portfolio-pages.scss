@@ -3,7 +3,7 @@
 .show-page-content {
 	margin-top: 20px;
 	p{
-		font-family: 'Merriweather', serif;
+		font-family: 'Muli', serif;
 	}
 
 }
@@ -40,13 +40,13 @@
 	text-align: center;
 	i {
 		color: white;
-		transform: translateY(10px);
+		transform: translateY(8px);
 	}
 }
 .show-info {
 	text-align: center;
 	font-weight: 300;
-	padding: 50px 20px 100px;
+	padding: 50px 50px 30px;
 	h4 {
 		letter-spacing: 1px;
 	}
@@ -54,9 +54,9 @@
 		margin-top: 5px;
 	}
 	ul{
-		font-family: 'Merriweather', serif;
+		font-family: 'Muli', serif;
 		li{
-			font-family: 'Merriweather', serif;
+			font-family: 'Muli', serif;
 			margin-bottom: 3px;
 			margin-top: 2px;
 			&:first-child{
