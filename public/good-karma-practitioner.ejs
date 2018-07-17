@@ -1,96 +1,201 @@
 <div id="full-container" canvas="container">
     <%- partial("partials/_nav") %>
-        <div class="post-bg">
-            <div class="tvshow-landing-container" style="background-color:#F60049">
+    <div class="post-bg">
+        <div class="tvshow-landing-container" style="background-image: linear-gradient(to left top, #faad00, #faa900, #faa500, #faa100, #fa9d00)">
+            <div class="container">
+                <div class="row">
+                    <div class="col col--6-of-12 col--m-2-of-4 col--s-2-of-2 tvshow-landing-text">
+                        <h1>Good Karma Studio Application</h1>
+                    </div>
+                    <div class="col col--6-of-12 col--m-2-of-4 col--s-2-of-2">
+                        <img class="fadein" src="img/gk-mob.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="row">
+                <h5>PROJECT DETAILS</h5>
+                <div class="project-details">
+
+                    <div class="col col--5-of-12 col--m-2-of-4 col--s-2-of-2 remove-left-padding">
+                        <p>
+                            <b>Client:</b> Yoga Studios</p>
+                    </div>
+                    <div class="col col--5-of-12 col--m-2-of-4 col--s-2-of-2 remove-left-padding">
+                        <p>
+                            <b>Timeline:</b> 2 Weeks</p>
+                    </div>
+                    <div class="col col--5-of-12 col--m-2-of-4 col--s-2-of-2 remove-left-padding">
+                        <p>
+                            <b>Date:</b> Sept 2017</p>
+                    </div>
+                    <!-- <div class="col col--5-of-12 col--m-2-of-4 col--s-2-of-2"><p><b>Studio:</b> 4 weeks</p></div> -->
+                </div>
+            </div>
+
+            <div class="row">
+                <h5>CONTRIBUTIONS</h5>
+
+                <p>User Research, Information Architecture, Interaction design, Visual design, User Testing, Front End</p>
+
+
+
+            </div>
+
+            <hr>
+            <div class="row">
+                <h5>BACKGROUND</h5>
+                <p>
+                    This was the first project I was assigned when I joined Multunus. The team consisted of
+                    <b>2 Developers, 1 Product Manager and me</b>. As the project was in the very early phase our objective
+                    was to validate the risky ideas as fast as possible and figuring out unknown unknowns on the way.
+                    Thus validating if the idea will reach the product market fit.
+                </p>
+            </div>
+            <br>
+
+            <div class="row">
+
+                <h5>PROBLEM</h5>
+                <p>Yoga studios find it difficult to sign up new customers for yoga classes. A lot of people call up the
+                    studios for training details and many of them even visit their website, but only a fraction of them
+                    actually sign up for a training class. Yoga studios just couldn't provide a great onboarding experience
+                    and also found it very hard to manage leads.</p>
+            </div>
+            <br>
+            <div class="row">
+                <h5>USER RESEARCH</h5>
+                <p>
+                    Before starting out I wanted to know answers to few sets of questions that would help me identify what to solve for.</p>
+                <ol>
+                    <li>How is the existing system works? How is an interaction between the studio manager and a customer?</li>
+                    <li>What is the journey of the user who visits the studio? How did he come to know about the studio?</li>
+                    <li>What is the motivation requires in him/her making decisions to go for a trial class and also joining
+                        for a month or year?</li>
+                    <li>What are the major customer concerns they looking in the studio?</li>
+                    <li>What are the triggers for the user to think about yoga?</li>
+                </ol>
+                <p>I conducted user interview yoga studios. I resorted to open-ended questions regarding how the studio
+                    manager function and how they provide an onboarding experience to the new customers.
+                </p>
+                <p>These are the major pain points found after user research.</p>
+                <img class="fadein" src="img/goodkarma/gk-painpoints.png" alt="">
+                <p>User interviews also gave a few keys metrics </p>
+                <p></p>
+                <div class="row">
+                    <div class="col col--4-of-12 col--m-2-of-4 col--s-2-of-2" style="padding-left: 0">
+                        <h3>20</h3>
+                        <p>AVG number of incoming calls/day</p>
+                    </div>
+                    <div class="col col--4-of-12 col--m-2-of-4 col--s-2-of-2">
+                        <h3>3</h3>
+                        <p>AVG number of trial class/day </p>
+                    </div>
+                    <div class="col col--4-of-12 col--m-2-of-4 col--s-2-of-2">
+                        <h3>0-1</h3>
+                        <p>AVG number signups/day </p>
+                    </div>
+                </div>
+                <h6>Prioritisation Paint Points to Solve:</h6> Keeping in mind these things in mind
+                <br>1) The value we can add to studios
+                <br> 2) Time to validate and built features
+                <br>The team did one round of voting followed up one vote from product head.
+                <img class="fadein" src="img/goodkarma/voting.jpg" alt="">
+
+            </div>
+            <br>
+            <div class="row">
+                <h5>HYPOTHESIS</h5>
+                <p>
+                    <span class="text-background-red">Managers found it really arduous to keep track of the leads coming thus missing chance to convert
+                        the leads to customers. </span>
+                    <span class="text-background-blue">We wanted to build a platform the let manager to keep track of all the leads coming in and manage
+                        it on the go. </span>This will the impact the number of trial class as the manager can follow
+                    up leads which didn't convert and understand why they didn't also.
+                </p>
+            </div>
+            <br>
+            <div class="row">
+                <h5>ASSUMPTIONS</h5>
+                <p class="text-align-left">It's essential to make necessary assumption while design this would help to scope the design and produce
+                    reasonable decisions in later stages of design.</p>
+                <ul class="text-align-left">
+                    <li>Most of the managers in the studio are comfortable using an android or ios device.</li>
+                    <li>The manager will be using this application on daily basis, it made sense for us go ahead with the
+                        assumption that few concepts in UI will be learned over course of time. </li>
+                    <li>Manager Spend 5-10min of time with each lead.</li>
+                    <li>Users don't bother with lead calls from yoga studio managers</li>
+                    <li>Single manager wont get more than 10 calls.</li>
+
+                </ul>
+
+            </div>
+            <br>
+            <div class="row">
+                <h5>LEARN EARLY, LEARN OFTEN</h5>
+                <p>One worthwhile thing that I have learned from my earlier design projects is that even after spending
+                    so much effort and time on upfront research, valuable insights always came from testing and validating
+                    design with the first user.</p>
+                <p> Instead of spending days on extensive user research, our team decided to ideate with given about of data
+                    points.</p>
+            </div>
+
+            <div class="row">
+                <h5>LOW FIDELITY</h5>
+                <p>When it came to wireframing we followed google's sprints diverge methodology where each person on the
+                    team has to sketch their own version solution to the problem. After rough wireframes, the team diverges
+                    on the solution by presenting each person's solutions. At the end of this process again a voting
+                    phase takes places and decided which wireframes solve the problem in best, easy and elegant way.</p>
+            </div>
+
+            <div class="load-img">
+                <br>
                 <div class="container">
-                    <div class="row">
-                        <div class="col col--6-of-12 col--m-2-of-4 col--s-2-of-2 tvshow-landing-text">
-                            <h1>Good Karma Sprint</h1>
-                        </div>
-                        <div class="col col--6-of-12 col--m-2-of-4 col--s-2-of-2">
-                            <img class="fadein" src="img/gk-mob.png" alt="">
-                        </div>
+                    <img class="fadein" src="img/goodkarma/wireframesv1.png" alt="">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <h5>USER TESTING WITH LOW FIDELITY</h5>
+                <p class="text-align-left">As wanted to validate my designs before going for development. I conducted. I had a small user-testing
+                    session with studio managers and Yoga studio founder.</p>
+                <p>Here are the few things I learned:</p>
+                <ul class="text-align-left">
+                    <li>Few managers were concerned about sending messages to the user without the permission of the user.</li>
+                    <li>I found out since any change in behavior requires a factor of motivation x ability x trigger. Here
+                        the manager ability to put in the number after each lead calls seems to be a problem for the
+                        expected outcomes we had. We noted this as an assumption and still went ahead. The reason being,
+                        solutions for this problem will require high effort from a tech standpoint. We decided still
+                        to go live with the current version to discover if there are unknown unknowns.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="row">
+                <h5>HIGH FIDELITY</h5>
+                <p>With learning from user testing we decided to move to high fidelity designs. We didn't go back to user-testing
+                    the high fidelity designs since screens were basic and we believed we would get better feedbacks
+                    once it is live in studios.</p>
+                <img class="fadein" src="img/goodkarma/goodkarmafinal.png" alt="">
 
-                    </div>
-                </div>
             </div>
-            <div class="down">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-            <div class="post-container">
-                <div class="row">
-                    <h4>GOAL</h4>
-                    <p>Yoga studios find it difficult to sign up new customers for yoga classes. A lot of people call up the
-                        studios for training details and many of them even visit their website, but only a fraction of them
-                        actually sign up for a training class. Yoga studios just couldn't provide a great onboarding experience
-                        and also found it very hard to manage leads.</p>
-                </div>
-                <br>
-                <div class="row">
-                    <h4>PROCESS</h4>
-                    <img class="fadein" src="img/gk-0.svg" alt="">
-                </div>
-                <br>
-                <div class="row">
-                    <h4>PROBLEM</h4>
-                    <p class="text-align-left">We have observed that yoga studio's isn’t meeting these goals of
-                        <b>following up with leads </b>and
-                        <b>lead management within a studio</b>. Which was leading to low conversion rate.
-                    </p>
-                </div>
-                <br>
-                <div class="row">
-                    <h4>ASSUMPTIONS</h4>
-                    <p class="text-align-left">The hypothesis statement is a way of expressing assumptions in a testable form. It is composed of the
-                        following elements:</p>
-                    <ul class="text-align-left">
-                        <li>
-                            <b>Assumptions</b>: A high-level declaration of what we believe to be true.</li>
-                        <li>
-                            <b>Outcomes:</b> More granular descriptions of our assumptions that target specific areas of our
-                            product or workflow for experimentation.</li>
-                        <li>
-                            <b>Personas: </b>Models of the people for whom we believe we are solving a problem.
-                        </li>
-                        <li>
-                            <b>Features: </b>The product changes or improvements we believe will drive the outcomes we seek.
-                        </li>
-                    </ul>
+            <div class="row">
+                <h5>LEARNINGS</h5>
+                <p>Here are the few things we learned after going live:</p>
+                <ul class="text-align-left">
+                    <li>Our Assumption regarding "Ability for the manager to put in the number after each lead calls will a problem for the expected outcomes we had. " was validated.</li>
+                    <li>After being live in studio for a week we notice the number entries entered to the product start decreasing which was a fair indication that entering the number of all leads is the cumbersome job for managers.</li>
+                    <li>Managers loved the product can be used on the go since we designed for the mobile first.</li>
+                    <li>Since the number of entries to the product was not in expected quantities we couldn't validate the hypothesis.
+                    </li>
 
-                </div>
-                <br>
-                <div class="row">
-                    <h4 class="text-align-left">DESIGN SOLUTIONS</h4>
-                    <p class="text-align-left">Collaborative design over designing on an island. Design should not be a solo exercise. Being a design
-                        team of one is no excuse. I use the design studio process and adopt the role of facilitator. </p>
-                    <br>
-                </div>
-                <br>
-                <div class="load-img">
-                    <br>
-                    <div class="container">
-                        <img class="fadein" src="img/gk-taskflow.svg" alt="">
-                    </div>
-                </div>
-                <div class="load-img">
-                    <br>
-                    <div class="container">
-                        <img class="fadein" src="img/gk-1.webp" alt="">
-                    </div>
-                </div>
-                <div class="show-info gk-show-info load-img">
-                    <br>
-                    <div class="container">
-                        <img class="fadein" src="img/gk-2.webp" alt="">
-                    </div>
-                </div>
-                <div class="show-info gk-show-info load-img">
-                    <br>
-                    <div class="container">
-                        <img class="fadein" src="img/gk-booking-page.jpg" alt="">
-                    </div>
-                </div>
+                </ul>
+
             </div>
+        </div>
+    </div>
             <%- partial("partials/_related-works",{ title: "Conferencia", link: "conferencia.html" }) %>
                 <%- partial("partials/_footer") %>
         </div>

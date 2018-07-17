@@ -1,9 +1,19 @@
 <div id="mycanvas" canvas="container">
     <%- partial("partials/_nav") %>
 </div>
+
 <div id="list-view" class="show-page-content list-view">
     <div class="list-blogs">
         <div class="container blog-container">
+            <div class="list-item">
+                <div class="col col--10-of-12 blog-title">
+                    <a href="hard-part-of-being-designer.html">
+                        <p class="blog-date">17 Sept 2017</p>
+                        <h3>Hard Part of Being Designer</h3>
+                        <p class="blog-description">In this article am not gonna talk about how hard it is to choose primary color or how to choose between light UI & Dark UI or anything related to UI ..</p>
+                    </a>
+                </div>
+            </div>
             <div class="list-item">
                 <div class="col col--10-of-12 blog-title">
                     <a href="maintainable-design.html">
@@ -73,16 +83,20 @@
     </div>
 </div>
 <%- partial("partials/_footer") %>
-<%- partial("partials/_page-trans") %>
-<script type="text/javascript">
-    $(document).ready(function () {
-        console.log("Trigger 1");
-        window.sr = ScrollReveal({
-            container: document.getElementById('list-view'),
-            easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-        });
-        sr.reveal('.list-item', {
-            duration: 160
-                }, 100);
-    });
-</script>
+    <%- partial("partials/_page-trans") %>
+        <script type="text/javascript">
+
+
+            $(document).ready(function () {
+                window.sr = ScrollReveal({
+                    container: document.getElementById('mycanvas'),
+                    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+                });
+                $("#mycanvas").animate({
+                    opacity: "1"
+                }, 700);
+                sr.reveal('.list-item', {
+                    duration: 1060
+                }, 1000);
+            });
+        </script>

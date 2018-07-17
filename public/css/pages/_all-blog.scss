@@ -12,16 +12,23 @@
 
 }
 .list-item {
+  border-radius: 6px;
   padding: 25px 20px;
-  margin-bottom: 20px;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
+  transition:0.5s all;
+
+  &:hover{
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+
+  }
+  &:last-child{
+    border-bottom: none;
+  }
 
 	a {
 		text-decoration: none;
 		color: #222;
 		font-weight: 400;
-		&:hover {
+		&:hover h3{
 			color: #194AFF;
 		}
 	}
@@ -30,6 +37,7 @@
 .blog-container {
   margin-top: 50px;
   margin-bottom: 100px;
+
   .blog-description {
     opacity: 0.4;
     font-size: 0.9em;
