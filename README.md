@@ -1,4 +1,4 @@
-# johnthachil.com
+
 Personal site in Harp.js
 
 ## To add menu button

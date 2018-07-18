@@ -5,7 +5,7 @@
   "scripts": {
     "start": "harp server",
     "compile": "harp compile",
-    "delpoy": "harp compile && firebase deploy"
+    "deploy": "harp compile && firebase deploy"
   },
   "dependencies": {
     "harp": "*"
