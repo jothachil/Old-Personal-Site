@@ -2,7 +2,7 @@
 ========================================================================== */
 
 .jumbtron {
-  padding: 70px 0;
+  padding: 60px 0;
   border-radius: 4px;
   margin: 0 30px;
   box-shadow: 0 0 30px RGBA(254, 137, 83, 0.5);
@@ -36,6 +36,21 @@
   }
   .home-works {
     margin-bottom: 20px;
+  }
+}
+.resume-btn{
+  margin-top: 16px;
+  display: inline-block;
+  border:2px solid #27303B;
+  padding:5px 18px;
+  color:#27303B;
+  border-radius:4px;
+  font-size: 14px;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+  &:hover{
+    background-color: #27303B;
+    color:white;
   }
 }
 
