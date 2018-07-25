@@ -7,4 +7,6 @@ public/design-task-xcompany.ejs
 public/hello.ejs
 .DS_Store
 www
-
+public/gradient.ejs
+public/tvshow-prototype.ejs
+public/x-company-task.ejs
