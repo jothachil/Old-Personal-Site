@@ -1,0 +1,37 @@
+[debug] [2018-07-25T05:07:51.369Z] ----------------------------------------------------------------------
+[debug] [2018-07-25T05:07:51.371Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-07-25T05:07:51.372Z] CLI Version:   3.19.3
+[debug] [2018-07-25T05:07:51.372Z] Platform:      darwin
+[debug] [2018-07-25T05:07:51.372Z] Node Version:  v8.11.2
+[debug] [2018-07-25T05:07:51.372Z] Time:          Wed Jul 25 2018 10:37:51 GMT+0530 (IST)
+[debug] [2018-07-25T05:07:51.372Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-25T05:07:51.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-25T05:07:51.387Z] > authorizing via signed-in user
+[debug] [2018-07-25T05:07:51.389Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-25T05:07:51.389Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/uG22_TOfeM4BiH3SmWXX85wkh7eTTquIOe0Gec-tWSBGgiWNL9aDuNBf-cs3DmD0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jul 25 2018 10:37:51 GMT+0530 (IST)
+[debug] [2018-07-25T05:07:51.707Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-25T05:07:51.726Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/johnthachil-com  
+  
+ Wed Jul 25 2018 10:37:51 GMT+0530 (IST)
+[debug] [2018-07-25T05:07:52.859Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-25T05:07:52.861Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/johnthachil-com/tokens  
+  
+ Wed Jul 25 2018 10:37:52 GMT+0530 (IST)
+[debug] [2018-07-25T05:07:53.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'johnthachil-com'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing www directory for upload...
+[debug] [2018-07-25T05:07:57.052Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/johnthachil-com/uploads/-LIEpVjIRyFAR_IgQZqH?fileCount=154&message=  
+  
+ Wed Jul 25 2018 10:37:57 GMT+0530 (IST)
+[debug] [2018-07-25T05:08:44.201Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-25T05:08:44.201Z] [hosting] .tgz uploaded successfully, waiting for extraction
